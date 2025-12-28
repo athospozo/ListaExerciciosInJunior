@@ -11,7 +11,7 @@ c = Number(prompt ("Digite o valor de C"));
 //calculo do discriminante:
 discriminante = b*b - 4*a*c
 
-//caso existam raizes:
+//caso existam raizes reais:
 if (discriminante >= 0){
     x1 = (-b + Math.sqrt(discriminante))/(2*a);
     x2 = (-b - Math.sqrt(discriminante))/(2*a);
