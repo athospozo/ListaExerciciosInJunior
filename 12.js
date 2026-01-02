@@ -34,7 +34,7 @@ function encontrarElementoUnico (array) {
     for (let i = 0; i < arrayObjetos.length; i++){
 
         if (arrayObjetos[i].vezes == 1){
-            console.log (encontrarElementoUnico(array));
+            console.log (arrayObjetos[i].elemento);
             return arrayObjetos[i].elemento;
         }
     }
