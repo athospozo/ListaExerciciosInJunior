@@ -33,15 +33,9 @@ function encontrarElementoUnico (array) {
     //agora vamos percorrer o array objeto procurando o elemento que aparece apenas uma unica vez:
     for (let i = 0; i < arrayObjetos.length; i++){
 
-        if (arrayObjetos[i].vezes == 1) return arrayObjetos[i].elemento;
+        if (arrayObjetos[i].vezes == 1){
+            console.log (encontrarElementoUnico(array));
+            return arrayObjetos[i].elemento;
+        }
     }
-
-    console.log (encontrarElementoUnico(array));
 }
-
-let array = []
-for (let i = 0; i < 5; i++){
-    array[i] = Number (prompt ("digite o numero"));
-}
-
-console.log (encontrarElementoUnico(array));
